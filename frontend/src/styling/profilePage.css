@@ -1,0 +1,126 @@
+:root {
+  --primary-color: #0052D4;
+}
+
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100vh;
+  margin: 50px;
+}
+
+.sidebar {
+  padding: 20px;
+}
+
+.main-layout .name {
+  font-size: 24px;
+  margin-bottom: 20px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.name .circle{
+  margin-left: 20px;
+}
+.hello {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.profileitems {
+  padding: 0;
+}
+
+.profileitems li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.profileitems li a {
+  margin-top:20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(95, 92, 92);
+  font-size: 25px;
+  gap: 10px; 
+}
+
+.profileitems li a:hover {
+  color:black;
+}
+
+.profileitems li button{
+  background: none;
+  margin-top:20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(95, 92, 92);
+  font-size: 28px;
+  gap: 10px;
+}
+
+.profileitems li button:hover {
+  color:black;
+}
+
+.circle {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: darkgreen;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin: 0; /* Ensure no margin */
+}
+
+.sidebar ul {
+  /* background: linear-gradient(180deg, #9CECFB, #65C7F7, #0052D4); */
+  list-style-type: none;
+  padding: 0;
+  height: 200px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-layout .content {
+  padding: 20px;
+  margin-top: 22px;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 500px) {
+  .main-layout {
+    margin-top: 70px; /* Adjust this value based on your navbar height */
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .sidebar, .content {
+    
+    width: 100%;
+    
+  }
+
+  
+
+  .content { 
+    width:90%;
+    padding-bottom: 10px; /* Ensures content has a bit more height */
+  }
+}

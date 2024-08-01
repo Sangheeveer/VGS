@@ -1,0 +1,75 @@
+.container {
+  max-width: 100%;
+}
+
+.card {
+  margin: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-4, .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.half-half-card {
+  height: 25rem; /* Adjust the total height as needed */
+  border-radius: 70px; /* For rounded-pill effect */
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 8px 0 grey;
+}
+
+.half-half-card .card-body {
+  height: 50%; /* Each card-body will take up half the height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hi {
+  background: linear-gradient(45deg,#1f1c2c ,#928dab); /* Apply the linear gradient */
+}
+
+#head {
+  color: dimgray;
+}
+
+.half-half-card .bg-white,
+.half-half-card .bg-dark {
+  padding: 20px;
+}
+
+#edit, #delete {
+  color: black;
+}
+
+#plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#plus:hover {
+  background-color: seagreen;
+  border: none;
+}
+
+#delete:hover, #edit:hover {
+  background-color: sienna;
+  border: none;
+}

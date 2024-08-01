@@ -1,0 +1,211 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Vegetables & fruits"
+      },
+      {
+        "id": 2,
+        "name": "Meat"
+      },
+      {
+        "id": 3,
+        "name": "Milk"
+      }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Smartphone",
+            "category_id": 1,
+            "price": 500,
+            "quantity": 10,
+            "image": "https://www.freepnglogos.com/uploads/carrot-png/carrot-carrots-35.png"
+          },
+          {
+            "id": 2,
+            "name": "Laptop",
+            "category_id": 1,
+            "price": 1000,
+            "quantity": 5,
+            "image": "https://www.w3schools.com/css/paris.jpg"
+          },
+          {
+            "id": 3,
+            "name": "T-shirt",
+            "category_id": 2,
+            "price": 20,
+            "quantity": 20,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 4,
+            "name": "Jeans",
+            "category_id": 2,
+            "price": 30,
+            "quantity": 15,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 5,
+            "name": "Introduction to React",
+            "category_id": 3,
+            "price": 25,
+            "quantity": 30,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 6,
+            "name": "The Great Gatsby",
+            "category_id": 3,
+            "price": 15,
+            "quantity": 25,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 7,
+            "name": "Bluetooth Headphones",
+            "category_id": 1,
+            "price": 50,
+            "quantity": 8,
+            "image": "https://cdn.shopify.com/s/files/1/0799/8432/8989/files/blog-post-content-vegetables-that-help-increase-height-135748-1.jpg?v=1692345318"
+          },
+          {
+            "id": 8,
+            "name": "Winter Jacket",
+            "category_id": 2,
+            "price": 70,
+            "quantity": 10,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 9,
+            "name": "Harry Potter and the Philosopher's Stone",
+            "category_id": 3,
+            "price": 20,
+            "quantity": 40,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 10,
+            "name": "Wireless Mouse",
+            "category_id": 1,
+            "price": 15,
+            "quantity": 20,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 11,
+            "name": "Summer Dress",
+            "category_id": 2,
+            "price": 25,
+            "quantity": 12,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 12,
+            "name": "To Kill a Mockingbird",
+            "category_id": 3,
+            "price": 18,
+            "quantity": 35,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 13,
+            "name": "Smartphone",
+            "category_id": 1,
+            "price": 500,
+            "quantity": 10,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 14,
+            "name": "Laptop",
+            "category_id": 1,
+            "price": 1000,
+            "quantity": 5,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 15,
+            "name": "T-shirt",
+            "category_id": 2,
+            "price": 20,
+            "quantity": 20,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 16,
+            "name": "Jeans",
+            "category_id": 2,
+            "price": 30,
+            "quantity": 15,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 17,
+            "name": "Introduction to React",
+            "category_id": 3,
+            "price": 25,
+            "quantity": 30,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 18,
+            "name": "The Great Gatsby",
+            "category_id": 3,
+            "price": 15,
+            "quantity": 25,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 19,
+            "name": "Bluetooth Headphones",
+            "category_id": 1,
+            "price": 50,
+            "quantity": 8,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 20,
+            "name": "Winter Jacket",
+            "category_id": 2,
+            "price": 70,
+            "quantity": 10,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 21,
+            "name": "Harry Potter and the Philosopher's Stone",
+            "category_id": 3,
+            "price": 20,
+            "quantity": 40,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 22,
+            "name": "Wireless Mouse",
+            "category_id": 1,
+            "price": 15,
+            "quantity": 20,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 23,
+            "name": "Summer Dress",
+            "category_id": 2,
+            "price": 25,
+            "quantity": 12,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          },
+          {
+            "id": 24,
+            "name": "To Kill a Mockingbird",
+            "category_id": 3,
+            "price": 18,
+            "quantity": 35,
+            "image": "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
+          }
+    ]
+  }
+  

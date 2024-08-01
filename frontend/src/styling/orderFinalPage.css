@@ -1,0 +1,107 @@
+.container-orderfinalpage {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden; /* Prevents scrollbar from appearing */
+    position: relative; /* Ensure absolute positioning works within this container */
+  }
+  
+  .slidecard-container {
+    position: absolute;
+    z-index: 1;
+    animation: slidetop 2s ease forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .topcircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -30px;
+  }
+  
+  .topcircle i {
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  .slidecard {
+    z-index: 1;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .slidecard .card-title, .card-text {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .slidecard .buttonslide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .slidecard .buttonslide a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  @keyframes slidetop {
+    from {
+      transform: translateY(-350%);
+    }
+    to {
+      transform: translateY(-140%); /* Move to the middle of the container */
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0%); /* Move to the middle of the container */
+    }
+  }
+  
+  .slide {
+    height: 55vh;
+    background-color: lightgreen;
+    width: 100%;
+    color: black;
+    animation: slideIn 2s ease forwards; /* Added forwards to keep the end state */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+    position: absolute;
+    bottom: 0;
+    font-size: 2rem;
+  }
+  
+  p {
+    margin: 0;
+  }
+  

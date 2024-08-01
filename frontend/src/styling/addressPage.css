@@ -1,0 +1,138 @@
+/* .container {
+    margin-top: 50px;
+
+  } */
+ 
+  .container .text {
+    font-size: 25px;
+    margin-bottom: 8px;
+  }
+  
+  .container .border {
+    padding: 10px 5px;
+  }
+  
+  .container .border .btn {
+    border: 0;
+    font-size: 20px;
+    color: blue;
+    font-family: "Arial";
+    font-weight: 25px;
+  }
+  
+  .card {
+    border: 0;
+  }
+  
+  .card {
+    background-color: rgb(236, 243, 245);
+  }
+  
+  .collapse input {
+    border-radius: 0;
+    height: 55px;
+  }
+  
+  .collapse textarea {
+    border-radius: 0;
+    width: 100%; /* Ensure full width within the column */
+  }
+  
+  button {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Background color change when adding address */
+  .background-active {
+    background-color: rgb(236, 243, 245);
+  }
+  
+  #save {
+    width:100px;
+    height:50px;
+    font-size: 20px;
+    border:0;
+    color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    background-color:rgb(42, 84, 219);
+  }
+
+#cancel{
+    margin-left: 20px;
+    font-size: 25px;
+    border:0;
+    color:rgb(42, 84, 219);
+}
+
+
+.addresses-box {
+  margin-top: 15px;
+}
+
+.address-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 0px;
+  margin-bottom: 0;
+  position: relative; /* Ensure relative positioning for the three-dot button */
+}
+
+.address-details {
+  padding: 10px;
+}
+
+.p1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.threedot {
+  position: absolute;
+  top: -70px; /* Adjust as needed */
+  right: -20px; /* Adjust as needed */
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.popover-container {
+  position: relative;
+}
+
+.popover {
+  position: absolute;
+  top: -90px;
+  right:10px;
+  display: none;
+  z-index: 1;
+  width: 90px;
+  padding: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.popover.show {
+  display: block;
+}
+
+.popover-body .btn-link {
+  display: block;
+  text-align:center;
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+  
+  .addressborder {
+   overflow-wrap:break-word;
+  }
+
+}
