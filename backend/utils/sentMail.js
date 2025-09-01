@@ -7,14 +7,14 @@ const sendmail=async (data)=>{
             //port:597,
             //secure:false,
             auth:{
-                user:'veerpuppala@gmail.com',
-                pass:'wsokwjzjrvyeshje'
+                user:'xyy',
+                pass:'wsokwjzjrvyeshj'
             }
         }
     )
 
     const emailOptions={
-        from:'veerpuppala@gmail.com',
+        from:'xyy',
         to:data.email,
         subject:data.subject,
         text:data.message,
